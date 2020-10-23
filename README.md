@@ -5,16 +5,16 @@
 - typescript
 - scss
 
-#run
+# run
 - npm run serve
 - npm run build
 
-#docker
+# docker
 
 - build: docker build -t template-spa .
 - run: docker run -d -p 8080:8080 --name template-spa template-spa
 
-#in future
+# in future
 
 - add svg rules
 - add mini example ts types 
