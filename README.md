@@ -1,4 +1,4 @@
-# template-spa
+# template-spa v0.0.2
 
 - webpack 5
 - vue 2
@@ -10,12 +10,13 @@
 - npm run build
 
 # docker
-
 - build: docker build -t template-spa .
 - run: docker run -d -p 8080:8080 --name template-spa template-spa
 
-# in future
+# version
+0.0.1 init
 
+# in future
 - add svg rules
 - add mini example ts types 
 - add mini example vuex
