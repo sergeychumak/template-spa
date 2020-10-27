@@ -1,4 +1,4 @@
-# template-spa v0.0.2
+# template-spa v0.0.3
 
 - webpack 5
 - vue 2
@@ -14,6 +14,8 @@
 - run: docker run -d -p 8080:8080 --name template-spa template-spa
 
 # version
+0.0.3 add router
+0.0.2 ts in vue
 0.0.1 init
 
 # in future

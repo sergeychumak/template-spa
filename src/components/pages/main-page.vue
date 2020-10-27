@@ -1,6 +1,6 @@
 <template>
   <div class="main-page">
-    main page
+    hi
   </div>
 </template>
 
@@ -17,6 +17,6 @@
 
 <style lang="scss">
   .main-page {
-
+    color: #f00
   }
 </style>

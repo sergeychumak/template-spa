@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="app">
-    main page
+    <router-view></router-view>
   </div>
 </template>
 
@@ -17,7 +17,6 @@
 
 <style lang="scss">
   .app {
-    background: red;
-    color: white;
+    border: 1px solid #f00;
   }
 </style>

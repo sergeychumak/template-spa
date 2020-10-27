@@ -1,10 +1,10 @@
 {
   "name": "template-spa",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "main": "src/index.js",
   "scripts": {
-    "serve": "cross-env NODE_ENV=development webpack serve -c @configs/webpack/webpack.dev.config.js",
+    "serve": "webpack serve -c @configs/webpack/webpack.dev.config.js",
     "build": "cross-env NODE_ENV=production webpack -c @configs/webpack/webpack.build.config.js"
   },
   "dependencies": {
